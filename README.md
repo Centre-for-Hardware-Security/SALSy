@@ -1,5 +1,5 @@
 # SALSy
-This repository contains several scripts for enhancing the security of digital designs during physical synthesis.
+This repository contains several scripts for enhancing the security of digital designs during physical synthesis. The techniques that are part of SALSy are described in the following paper: https://doi.org/10.48550/arXiv.2308.06201
 
 INDEX:
 
@@ -17,6 +17,14 @@ report_design_statistics.tcl --> Script for generating different statistics abou
 
 How to cite:
 
-Please cite our paper in case of using each of the SALSy scripts as the following:
+```
+@misc{eslami2023salsy,
+      title={SALSy: Security-Aware Layout Synthesis}, 
+      author={Mohammad Eslami and Tiago Perez and Samuel Pagliarini},
+      year={2023},
+      eprint={2308.06201},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+```
 
-https://doi.org/10.48550/arXiv.2308.06201
